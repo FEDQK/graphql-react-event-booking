@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "graphqlUser",
+    "MONGO_PASSWORD": "JYyo3V7LjZ8WRs7e",
+    "MONGO_DB": "events-react-dev"
+  }
+}
