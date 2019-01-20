@@ -24,19 +24,29 @@
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .main-navigation-items li {
   margin: 0 1rem;
 }
 
-.main-navigation-items a {
+.main-navigation-items a,
+.main-navigation-items button {
   text-decoration: none;
   color: #fff;
+  border: none;
+  font: inherit;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
 }
 
 .main-navigation-items a:hover,
 .main-navigation-items a:active,
-.main-navigation-items a.active {
+.main-navigation-items a.active,
+.main-navigation-items button:hover,
+.main-navigation-items button:active {
   color: #ffee00;
 }
