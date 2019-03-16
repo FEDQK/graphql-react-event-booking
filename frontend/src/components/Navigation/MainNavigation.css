@@ -8,6 +8,7 @@
   padding: 0 1rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .main-navigation-logo h1 {
@@ -16,7 +17,7 @@
 }
 
 .main-navigation-items {
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .main-navigation-items ul {
